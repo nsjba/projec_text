@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>弹性布局</title>
+    <style>
+      div {
+        width: 700px;
+        height: 400px;
+        background-color: aqua;
+        display: flex;
+        /* column是设置主轴为Y轴，默认为X轴，详情看黑马Html P418 */
+        /* flex-direction: column; */
+        /* justify-content: center; */
+        /* justify-content:flex-end; 这个是让盒子靠行末尾开始布局 默认的是 flex-start */
+        /* justify-content: space-around;  这个是平均分配*/
+        /* justify-content: space-between ;这个是两边先贴边，然后中间的再平均分配  */
+      }
+      span {
+        background-color: rgb(147, 147, 216);
+        margin: 2px;
+        height: 100px;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <span>第一个盒子</span>
+      <span>第二个盒子</span>
+      <span>第三个盒子</span>
+      <span>第四个盒子</span>
+      <span>第五个盒子</span>
+    </div>
+  </body>
+</html>
